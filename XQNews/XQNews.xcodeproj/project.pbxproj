@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1895DB9B21869C6A00152151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895DB9A21869C6A00152151 /* AppDelegate.m */; };
+		1895DB9E21869C6A00152151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895DB9D21869C6A00152151 /* ViewController.m */; };
+		1895DBA121869C6A00152151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1895DB9F21869C6A00152151 /* Main.storyboard */; };
+		1895DBA321869C6C00152151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1895DBA221869C6C00152151 /* Assets.xcassets */; };
+		1895DBA621869C6C00152151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1895DBA421869C6C00152151 /* LaunchScreen.storyboard */; };
+		1895DBA921869C6C00152151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895DBA821869C6C00152151 /* main.m */; };
+		FDA9690F47DECA1487876D6F /* libPods-XQNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07B5F0509FCE10C5D61FD39 /* libPods-XQNews.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1895DB9621869C6A00152151 /* XQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1895DB9921869C6A00152151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1895DB9A21869C6A00152151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1895DB9C21869C6A00152151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1895DB9D21869C6A00152151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1895DBA021869C6A00152151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1895DBA221869C6C00152151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1895DBA521869C6C00152151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1895DBA721869C6C00152151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1895DBA821869C6C00152151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0164B7F5E6617C95E4BF6F /* Pods-XQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQNews/Pods-XQNews.release.xcconfig"; sourceTree = "<group>"; };
+		4ED3962825470449A7404924 /* Pods-XQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQNews/Pods-XQNews.debug.xcconfig"; sourceTree = "<group>"; };
+		D07B5F0509FCE10C5D61FD39 /* libPods-XQNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1895DB9321869C6A00152151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA9690F47DECA1487876D6F /* libPods-XQNews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1895DB8D21869C6A00152151 = {
+			isa = PBXGroup;
+			children = (
+				1895DB9821869C6A00152151 /* XQNews */,
+				1895DB9721869C6A00152151 /* Products */,
+				EDDBAA600ADD18B7513F1B0A /* Pods */,
+				C0D90E7F3AA1F04AE3585D7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1895DB9721869C6A00152151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1895DB9621869C6A00152151 /* XQNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1895DB9821869C6A00152151 /* XQNews */ = {
+			isa = PBXGroup;
+			children = (
+				1895DB9921869C6A00152151 /* AppDelegate.h */,
+				1895DB9A21869C6A00152151 /* AppDelegate.m */,
+				1895DB9C21869C6A00152151 /* ViewController.h */,
+				1895DB9D21869C6A00152151 /* ViewController.m */,
+				1895DB9F21869C6A00152151 /* Main.storyboard */,
+				1895DBA221869C6C00152151 /* Assets.xcassets */,
+				1895DBA421869C6C00152151 /* LaunchScreen.storyboard */,
+				1895DBA721869C6C00152151 /* Info.plist */,
+				1895DBA821869C6C00152151 /* main.m */,
+			);
+			path = XQNews;
+			sourceTree = "<group>";
+		};
+		C0D90E7F3AA1F04AE3585D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D07B5F0509FCE10C5D61FD39 /* libPods-XQNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDDBAA600ADD18B7513F1B0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ED3962825470449A7404924 /* Pods-XQNews.debug.xcconfig */,
+				4D0164B7F5E6617C95E4BF6F /* Pods-XQNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1895DB9521869C6A00152151 /* XQNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1895DBAC21869C6C00152151 /* Build configuration list for PBXNativeTarget "XQNews" */;
+			buildPhases = (
+				309B47961D1A66408D0D4AC7 /* [CP] Check Pods Manifest.lock */,
+				1895DB9221869C6A00152151 /* Sources */,
+				1895DB9321869C6A00152151 /* Frameworks */,
+				1895DB9421869C6A00152151 /* Resources */,
+				894FA2E653596DC5BDD2D213 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQNews;
+			productName = XQNews;
+			productReference = 1895DB9621869C6A00152151 /* XQNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1895DB8E21869C6A00152151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xiqi;
+				TargetAttributes = {
+					1895DB9521869C6A00152151 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1895DB9121869C6A00152151 /* Build configuration list for PBXProject "XQNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1895DB8D21869C6A00152151;
+			productRefGroup = 1895DB9721869C6A00152151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1895DB9521869C6A00152151 /* XQNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1895DB9421869C6A00152151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1895DBA621869C6C00152151 /* LaunchScreen.storyboard in Resources */,
+				1895DBA321869C6C00152151 /* Assets.xcassets in Resources */,
+				1895DBA121869C6A00152151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309B47961D1A66408D0D4AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XQNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894FA2E653596DC5BDD2D213 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XQNews/Pods-XQNews-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TMShare/TMFramework/TMShare.bundle",
+				"${PODS_ROOT}/TMUserCenter/TMFramework/SetI001.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TMShare.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SetI001.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQNews/Pods-XQNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1895DB9221869C6A00152151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1895DB9E21869C6A00152151 /* ViewController.m in Sources */,
+				1895DBA921869C6C00152151 /* main.m in Sources */,
+				1895DB9B21869C6A00152151 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1895DB9F21869C6A00152151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1895DBA021869C6A00152151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1895DBA421869C6C00152151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1895DBA521869C6C00152151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1895DBAA21869C6C00152151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1895DBAB21869C6C00152151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1895DBAD21869C6C00152151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED3962825470449A7404924 /* Pods-XQNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7UMD2T2S2;
+				INFOPLIST_FILE = XQNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiqi.news.com.XQNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1895DBAE21869C6C00152151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0164B7F5E6617C95E4BF6F /* Pods-XQNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7UMD2T2S2;
+				INFOPLIST_FILE = XQNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiqi.news.com.XQNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1895DB9121869C6A00152151 /* Build configuration list for PBXProject "XQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1895DBAA21869C6C00152151 /* Debug */,
+				1895DBAB21869C6C00152151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1895DBAC21869C6C00152151 /* Build configuration list for PBXNativeTarget "XQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1895DBAD21869C6C00152151 /* Debug */,
+				1895DBAE21869C6C00152151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1895DB8E21869C6A00152151 /* Project object */;
+}

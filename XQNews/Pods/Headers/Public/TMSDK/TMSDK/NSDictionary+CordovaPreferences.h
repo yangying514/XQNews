@@ -1,0 +1,1 @@
+../../../../TMSDK/TMFramework/TMSDK.framework/Headers/NSDictionary+CordovaPreferences.h
