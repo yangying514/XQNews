@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XQNews"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "新闻组件"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "一款画图插件"
+s.description  = <<-DESC
+                     一款画图插件
+                   DESC
 
   s.homepage     = "https://github.com/yangying514/XQNews"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -115,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
