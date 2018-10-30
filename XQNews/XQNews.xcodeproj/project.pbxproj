@@ -13,7 +13,7 @@
 		1895DBA321869C6C00152151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1895DBA221869C6C00152151 /* Assets.xcassets */; };
 		1895DBA621869C6C00152151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1895DBA421869C6C00152151 /* LaunchScreen.storyboard */; };
 		1895DBA921869C6C00152151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895DBA821869C6C00152151 /* main.m */; };
-		1895DBB82187E8B100152151 /* UIImage+pixels.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895DBB72187E8B100152151 /* UIImage+pixels.m */; };
+		1895DBBB2187ED1B00152151 /* UIImage+pixels.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895DBBA2187ED1B00152151 /* UIImage+pixels.m */; };
 		FDA9690F47DECA1487876D6F /* libPods-XQNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07B5F0509FCE10C5D61FD39 /* libPods-XQNews.a */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		1895DBA521869C6C00152151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1895DBA721869C6C00152151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1895DBA821869C6C00152151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1895DBB62187E8B100152151 /* UIImage+pixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+pixels.h"; sourceTree = "<group>"; };
-		1895DBB72187E8B100152151 /* UIImage+pixels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+pixels.m"; sourceTree = "<group>"; };
+		1895DBB92187ED1B00152151 /* UIImage+pixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+pixels.h"; sourceTree = "<group>"; };
+		1895DBBA2187ED1B00152151 /* UIImage+pixels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+pixels.m"; sourceTree = "<group>"; };
 		4D0164B7F5E6617C95E4BF6F /* Pods-XQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQNews/Pods-XQNews.release.xcconfig"; sourceTree = "<group>"; };
 		4ED3962825470449A7404924 /* Pods-XQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQNews/Pods-XQNews.debug.xcconfig"; sourceTree = "<group>"; };
 		D07B5F0509FCE10C5D61FD39 /* libPods-XQNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,18 +85,10 @@
 		1895DBB42187E8B100152151 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1895DBB52187E8B100152151 /* fillManager */,
+				1895DBB92187ED1B00152151 /* UIImage+pixels.h */,
+				1895DBBA2187ED1B00152151 /* UIImage+pixels.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		1895DBB52187E8B100152151 /* fillManager */ = {
-			isa = PBXGroup;
-			children = (
-				1895DBB62187E8B100152151 /* UIImage+pixels.h */,
-				1895DBB72187E8B100152151 /* UIImage+pixels.m */,
-			);
-			path = fillManager;
 			sourceTree = "<group>";
 		};
 		C0D90E7F3AA1F04AE3585D7B /* Frameworks */ = {
@@ -239,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1895DBB82187E8B100152151 /* UIImage+pixels.m in Sources */,
+				1895DBBB2187ED1B00152151 /* UIImage+pixels.m in Sources */,
 				1895DB9E21869C6A00152151 /* ViewController.m in Sources */,
 				1895DBA921869C6C00152151 /* main.m in Sources */,
 				1895DB9B21869C6A00152151 /* AppDelegate.m in Sources */,
